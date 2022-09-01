@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
 <head>
-    <title>The simple clock!</title>
+    <title>The clock</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#333333">
     <link rel="icon" type="image/png" href="images/clock-96.png">
     <link rel="stylesheet" href="style.css">
     <link rel="manifest" href="./manifest.json">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
 </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZC6PMPY0D"></script>
@@ -60,6 +60,7 @@
         var time = h + ":" + m + ":" + s + " " + session;
         document.getElementById("MyClockDisplay").innerText = time;
         document.getElementById("MyClockDisplay").textContent = time;
+        document.title = time + " - The Clock";
 
         setTimeout(showTime, 500);
     }
