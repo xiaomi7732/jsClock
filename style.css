@@ -1,10 +1,31 @@
 body {
     background: #333;
     margin: 0;
+    color: #eee;
 }
-.clock-container
-{
+
+a {
+    color: #eee;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.page-container{
     display: flex;
+    flex-direction: column;
+}
+
+
+.topbar{
+    align-self: flex-end;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+
+.clock-container {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     height: 100vh;

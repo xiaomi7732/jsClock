@@ -11,16 +11,19 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-6ZC6PMPY0D"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-6ZC6PMPY0D');
+    gtag('config', 'G-6ZC6PMPY0D');
 </script>
 
 <body>
-    <div class="clock-container">
-        <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+    <div class="page-container">
+        <div class="topbar"><a href="https://www.codewithsaar.net" aria-label="Homepage">🏠</a> | <a href="https://fishcard.codewithsaar.net" aria-label="Fishcard">🐠</a></div>
+        <div class="clock-container">
+            <div id="MyClockDisplay" class="clock" onload="showTime()"></div>
+        </div>
     </div>
 </body>
 
