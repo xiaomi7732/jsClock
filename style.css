@@ -13,8 +13,8 @@ a {
 .page-container{
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
-
 
 .topbar{
     align-self: flex-end;
@@ -28,7 +28,7 @@ a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    flex-grow: 1;
 }
 
 .clock {
