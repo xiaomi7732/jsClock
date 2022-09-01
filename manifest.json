@@ -1,7 +1,7 @@
 {
-    "short_name": "TheSimpleClock",
-    "name": "The Simple Clock - Windows 11 clock alternative with seconds",
-    "description": "A simple clock with seconds on it.",
+    "short_name": "TheClock",
+    "name": "The Clock",
+    "description": "A simple, Windows 11 alternative clock with seconds on it.",
     "icons": [
         {
             "src": "images/clock-48.png",
